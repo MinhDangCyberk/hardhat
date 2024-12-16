@@ -26,9 +26,6 @@
                 "ast"
               ]
             }
-          },
-          "metadata": {
-            "useLiteralContent": false
           }
         }
       },
@@ -38,6 +35,78 @@
       ],
       "artifacts": [
         "Lock"
+      ]
+    },
+    "D:\\ContractBlockchain\\hardhat\\contracts\\Escrow.sol": {
+      "lastModificationDate": 1732202342661,
+      "contentHash": "b7564d87f1c65d525eea2603b65d0854",
+      "sourceName": "contracts/Escrow.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "Escrow"
+      ]
+    },
+    "D:\\ContractBlockchain\\hardhat\\contracts\\ClaimWeek.sol": {
+      "lastModificationDate": 1734322384844,
+      "contentHash": "83dd6d8487c23686aee756353b632d0f",
+      "sourceName": "contracts/ClaimWeek.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "ClaimWeek"
       ]
     }
   }
